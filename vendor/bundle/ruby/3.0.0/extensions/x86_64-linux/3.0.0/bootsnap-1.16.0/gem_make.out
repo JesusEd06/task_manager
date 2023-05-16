@@ -1,0 +1,15 @@
+current directory: /home/jesused06/task_manager/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/jesused06/.rbenv/versions/3.0.2/bin/ruby -I /home/jesused06/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230516-45452-5yfg4d.rb extconf.rb
+creating Makefile
+
+current directory: /home/jesused06/task_manager/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/jesused06/task_manager/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/jesused06/task_manager/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20230516-45452-89r3jl/bootsnap
