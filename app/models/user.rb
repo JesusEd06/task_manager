@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+    belongs_to :group, optional: true
+    has_many :tasks
+
     before_save { email.downcase! }
 
     VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i

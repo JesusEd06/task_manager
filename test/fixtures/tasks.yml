@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Tarea 1
+  description: Tarea personal
+  due_date: 2023-05-21 21:58:24
+  status: false
+  user: jesus
+  group: one
+  task_type: personal
+
+two:
+  name: Tarea 2
+  description: Tarea grupal
+  due_date: 2023-05-21 21:58:24
+  status: false
+  user: jesus
+  group: one
+  task_type: grupal

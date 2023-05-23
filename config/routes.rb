@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'static_pages#home'
+  root 'tasks#index'
   
   get '/signup', to: 'users#new'
   get '/login', to: 'sessions#new'  # Página de login
@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy' 
   
   resources :users
+  resources :tasks
+
 end
